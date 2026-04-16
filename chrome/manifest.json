@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "BonziWORLD FastTyper",
+  "version": "1.0",
+  "author": "Izhan",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://bonzi.gay/*",
+        "https://bwiworld.onrender.com/*",
+        "https://bonzi.space/*",
+        "https://bonziworld.qzz.io/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
